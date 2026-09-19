@@ -44,6 +44,15 @@
             >
                 Aanpassen 
             </a>
+
+            <!-- Film verwijderen -->
+            <a
+                href="delete-movie.php?id=<?= (int) $movie['id'] ?>"
+                class="btn btn-danger"
+                onclick="return confirm('Weet je zeker dat je deze film wilt verwijderen?')"
+            >
+                Verwijderen
+            </a>
         </div>
     </div>
 </div>
