@@ -36,6 +36,14 @@
                     Nog niet gezien
                 <?php endif; ?>
             </p>
+
+            <!-- Film aanpassen --> 
+            <a
+                href="edit-movie.php?id=<?= (int) $movie['id'] ?>"
+                class="btn btn-primary"
+            >
+                Aanpassen 
+            </a>
         </div>
     </div>
 </div>
