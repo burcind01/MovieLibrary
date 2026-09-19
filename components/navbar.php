@@ -20,7 +20,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="/MovieLibrary/add.php">
+                    <a class="nav-link" href="/MovieLibrary/add-movie.php">
                         Film toevoegen
                     </a>
                 </li>

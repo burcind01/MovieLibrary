@@ -1,7 +1,13 @@
 <?php ?>
-
 <div class="col-md-4 mb-4">
-    <div class="card h-100">
+    <div class="card h-100 shadow-sm">
+        <!-- Filmposter -->
+        <img
+            src="<?= htmlspecialchars($movie['image'], ENT_QUOTES, 'UTF-8') ?>"
+            class="card-img-top movie-poster"
+            alt="<?= htmlspecialchars($movie['title'], ENT_QUOTES, 'UTF-8') ?>"
+        >
+
         <div class="card-body">
 
             <!-- Titel van de film -->

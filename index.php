@@ -26,30 +26,25 @@ require_once __DIR__ . '/components/header.php';
         </p>
     </div>
 
-    <a href="add.php" class="btn btn-primary">
+    <a href="add-movie.php" class="btn btn-primary">
         + Film toevoegen
     </a>
 </div>
 
-
 <?php if (empty($movies)): ?>
-
     <div class="alert alert-info">
         Er staan nog geen films in je bibliotheek.
     </div>
 
 <?php else: ?>
     <div class="row">
-
         <?php foreach ($movies as $movie): ?>
 
             <?php require __DIR__ . '/components/movie-card.php'; ?>
 
         <?php endforeach; ?>
-
     </div>
 <?php endif; ?>
-
 
 <?php
 
