@@ -2,6 +2,7 @@
     <div class="container">
         <!-- Logo -->
         <a class="navbar-brand" href="/MovieLibrary/index.php">
+            <img src="img/popcorn.png" alt="MovieLibrary Logo" class="site-footer__logo"/>
             MovieLibrary
         </a>
 
